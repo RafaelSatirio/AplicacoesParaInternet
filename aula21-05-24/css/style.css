@@ -1,0 +1,29 @@
+body{
+    background: yellow;
+    font-style: bold;
+    color: pink;
+}
+
+p{
+    color: blue;
+}
+
+
+h1{
+    font-style: italic;
+    color: red;
+}
+
+#h1-titulo{
+    text-align: center;
+}
+
+#para2{
+    font-size: 40px;
+    margin: 30px;
+    margin-left: 200px;
+}
+
+.prikmeiroterceiro{
+    letter-spacing: 3px;
+}
