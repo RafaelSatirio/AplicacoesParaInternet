@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body bgcolor="darkblue" text="white" align="center">
+    <h2><center>Exemplo de formulário</center></h2>
+    <section class="section-form" width="100px" height="500px">
+        <form>
+
+            <label for="nome">Nome: </label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome" size="25px" maxlength="40">
+    
+            <label for="sobrenome">Sobrenome: </label>
+            <input type="text" id="sobrenome" name="sobrenome" placeholder="Digite seu sobrenome">
+            <br> <br>
+    
+            <label for="telefone">Telefone: </label>
+            <input type="number" id="telefone" name="telefone" placeholder="Digite seu telefone">
+            <br> <br>
+    
+            <label for="email">Email: </label>
+            <input type="text" id="email" name="email" placeholder="Digite seu email">
+            <br> <br>
+    
+            <label for="formacao">Formação: </label><br> 
+            <input type="checkbox" name="formacao" value="Graduado">Graduado <br> <br>
+            <input type="checkbox" name="formacao" value="Mestre">Mestre <br> <br>
+            <input type="checkbox" name="formacao" value="Doutor">Doutor <br> <br>
+    
+            <label for="sexo">Sexo: </label><br>
+            <input type="radio" name="sexo" id="sexo" value="feminino">
+            <input type="radio" name="sexo" id="sexo" value="masculino"><br> <br>
+    
+            <input type="button" id="verificar" value="verificar">  
+        </form>
+    
+    </section>
+</body>
+</html>
